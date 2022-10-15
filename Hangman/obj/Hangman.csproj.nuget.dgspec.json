@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\albos\\Source\\Repos\\albossmohammad83\\Hangman-game\\Hangman\\Hangman.csproj": {}
+    "C:\\Users\\albos\\source\\repos\\albossmohammad83\\Hangman-game\\Hangman\\Hangman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\albos\\Source\\Repos\\albossmohammad83\\Hangman-game\\Hangman\\Hangman.csproj": {
+    "C:\\Users\\albos\\source\\repos\\albossmohammad83\\Hangman-game\\Hangman\\Hangman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\albos\\Source\\Repos\\albossmohammad83\\Hangman-game\\Hangman\\Hangman.csproj",
+        "projectUniqueName": "C:\\Users\\albos\\source\\repos\\albossmohammad83\\Hangman-game\\Hangman\\Hangman.csproj",
         "projectName": "Hangman",
-        "projectPath": "C:\\Users\\albos\\Source\\Repos\\albossmohammad83\\Hangman-game\\Hangman\\Hangman.csproj",
+        "projectPath": "C:\\Users\\albos\\source\\repos\\albossmohammad83\\Hangman-game\\Hangman\\Hangman.csproj",
         "packagesPath": "C:\\Users\\albos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\albos\\Source\\Repos\\albossmohammad83\\Hangman-game\\Hangman\\obj\\",
+        "outputPath": "C:\\Users\\albos\\source\\repos\\albossmohammad83\\Hangman-game\\Hangman\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\albos\\AppData\\Roaming\\NuGet\\NuGet.Config",

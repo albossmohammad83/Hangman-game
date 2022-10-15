@@ -6,7 +6,7 @@ namespace Hangman
 {
     class Program
     {
-        static string correctWord = "hangman";
+        static string correctWord;
         static char[] letters;
         static Player player;
 
@@ -19,6 +19,11 @@ namespace Hangman
 
         private static void StartGame()
         {
+            var words = File.ReadAllLines(@"C:\Users\albos\source\repos\albossmohammad83\Hangman-game\Hangman\Words.txt");
+
+            Random random = new Random();
+            correctWord = words[random.Next(0, words.Length)];
+
             letters = new char[correctWord.Length];
             for (int i = 0; i < correctWord.Length; i++)
             {
