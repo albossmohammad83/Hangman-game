@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using System.Threading.Channels;
 
 namespace Hangman
@@ -7,8 +8,7 @@ namespace Hangman
     {
         static string correctWord = "hangman";
         static char[] letters;
-        static string name;
-        static List<char> guessedLetters = new List<char>();
+        static Player player;
 
         static void Main(string[] args)
         {
@@ -33,7 +33,7 @@ namespace Hangman
             string input = Console.ReadLine();
             if (input.Length >= 2)
             {
-                name = input;
+                player = new Player(input);
             }
             else
             {
@@ -62,6 +62,7 @@ namespace Hangman
                 if (guessedLetters == correctWord[i])
                 {
                     letters[i] = guessedLetters;
+                    player.score++;
                 }
             }
         }
@@ -86,9 +87,9 @@ namespace Hangman
 
             var letter = input[0];
 
-            if (!guessedLetters.Contains(letter))
+            if (!player.guessedLetters.Contains(letter))
             {
-                guessedLetters.Add(letter);
+                player.guessedLetters.Add(letter);
             }
 
             return letter;
@@ -96,8 +97,8 @@ namespace Hangman
         private static void EndGame()
         {
             Console.WriteLine("Game over...");
-            Console.WriteLine($"Thanks for playing {name}");
-            Console.WriteLine($"Guesses:{guessedLetters.Count}");
+            Console.WriteLine($"Thanks for playing {player.name}");
+            Console.WriteLine($"Guesses:{player.guessedLetters.Count} Score:{player.score}");
         }
     }
 }
