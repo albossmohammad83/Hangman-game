@@ -62,7 +62,7 @@ namespace Hangman
                 if (guessedLetters == correctWord[i])
                 {
                     letters[i] = guessedLetters;
-                    player.score++;
+                    player.Score++;
                 }
             }
         }
@@ -97,8 +97,8 @@ namespace Hangman
         private static void EndGame()
         {
             Console.WriteLine("Game over...");
-            Console.WriteLine($"Thanks for playing {player.name}");
-            Console.WriteLine($"Guesses:{player.guessedLetters.Count} Score:{player.score}");
+            Console.WriteLine($"Thanks for playing {player.Name}");
+            Console.WriteLine($"Guesses:{player.guessedLetters.Count} Score:{player.Score}");
         }
     }
 }
