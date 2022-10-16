@@ -1,0 +1,5 @@
+C:\Users\albos\source\repos\albossmohammad83\Hangman-game\Hangman\bin\Release\net6.0\publish\Hangman.exe
+C:\Users\albos\source\repos\albossmohammad83\Hangman-game\Hangman\bin\Release\net6.0\publish\Hangman.dll
+C:\Users\albos\source\repos\albossmohammad83\Hangman-game\Hangman\bin\Release\net6.0\publish\Hangman.deps.json
+C:\Users\albos\source\repos\albossmohammad83\Hangman-game\Hangman\bin\Release\net6.0\publish\Hangman.runtimeconfig.json
+C:\Users\albos\source\repos\albossmohammad83\Hangman-game\Hangman\bin\Release\net6.0\publish\Hangman.pdb
